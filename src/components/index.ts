@@ -1,0 +1,6 @@
+export * from './Footer'
+export * from './Header'
+export * from './Intro'
+export * from './Services'
+export * from './StayProductive'
+export * from './Testimonials'
