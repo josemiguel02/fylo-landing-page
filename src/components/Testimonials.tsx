@@ -66,7 +66,7 @@ const Avatar = styled(Image)`
 export const Testimonials = () => {
   return (
     <TestimonialsContainer>
-      <GridTestimonials columns={1} rows={3} gap='2rem'>
+      <GridTestimonials gap='2rem'>
         {testimonialsList.map(({ avatar, name }) => (
           <TestimonialItem key={name} column justify='center' gap='1rem'>
             <Paragraph>
